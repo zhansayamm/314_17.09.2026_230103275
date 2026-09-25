@@ -1,0 +1,79 @@
+#1st run:
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 1846177
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 1846179
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 1846178
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 1846177
+--- Joined thread team. Execution returned to serial master ---
+
+#2nd run:
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 1849952
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 1849954
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 1849952
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 1849953
+--- Joined thread team. Execution returned to serial master ---
+
+#3rd run:
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 1850509
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 1850511
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 1850510
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 1850509
+--- Joined thread team. Execution returned to serial master ---
+
+#4th run:
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 1851103
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 1851105
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 1851103
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 1851104
+--- Joined thread team. Execution returned to serial master ---
+
+#5th run:
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 1851386
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 1851388
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 1851386
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 1851387
+--- Joined thread team. Execution returned to serial master ---
+
+#6th run:
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 1852020
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 1852022
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 1852020
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 1852021
+--- Joined thread team. Execution returned to serial master ---
+
+#7th run:
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 1852278
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 1852280
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 1852279
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 1852278
+--- Joined thread team. Execution returned to serial master ---
+
+#8th run:
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 1852580
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 1852582
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 1852580
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 1852581
+--- Joined thread team. Execution returned to serial master ---
+
+#9th run:
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 1852848
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 1852851
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 1852849
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 1852850
+--- Joined thread team. Execution returned to serial master ---
+
+#10th run:
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 1853090
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 1853092
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 1853090
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 1853091
+--- Joined thread team. Execution returned to serial master ---
