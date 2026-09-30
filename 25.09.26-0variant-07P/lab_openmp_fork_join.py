@@ -3,12 +3,17 @@ from concurrent.futures import ThreadPoolExecutor
 import threading
 import time
 import os
+import math
 
 
 def worker_task(thread_id: int, team_size: int):
     # Retrieve OS-level native thread ID
     native_tid = threading.get_native_id()
     role = "Master" if thread_id == 0 else "Worker"
+
+    result = 0.0
+    for i in range(10_000_000):
+        result += math.sqrt(i)
 
     # Demonstrate execution interleaving
     time.sleep(0.001 * (thread_id % 3))
