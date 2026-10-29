@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "collected_at_utc": "2026-10-29T07:45:54+00:00",
+  "cpu": {
+    "model_name": "Apple M1",
+    "vendor": null,
+    "architecture": "arm64",
+    "microarchitecture": "Firestorm (P) / Icestorm (E)",
+    "microarchitecture_source": "apple brand string",
+    "family": "",
+    "model": null,
+    "stepping": null,
+    "frequency": {
+      "base_mhz": null,
+      "base_source": null,
+      "max_mhz": null,
+      "current_mhz_snapshot": null
+    },
+    "isa_extensions_present": [],
+    "running_under_hypervisor": false
+  },
+  "topology": {
+    "sockets": 1,
+    "physical_cores": 8,
+    "logical_threads": 8,
+    "threads_per_core": 1,
+    "smt_enabled": false,
+    "smt_detection": {
+      "method": "sysctl hw.physicalcpu vs hw.logicalcpu"
+    },
+    "usable_logical_cpus_for_this_process": 8
+  },
+  "cache": {
+    "source": "sysctl",
+    "l1d_size_bytes": 131072,
+    "l1i_size_bytes": 196608,
+    "l2_size_bytes": 12582912,
+    "l3_size_bytes": "",
+    "l3_shared_by_logical_cpus": null,
+    "cache_line_size_bytes": 128,
+    "sizes_are": "per core class (perflevel0 = performance cores) where available",
+    "heterogeneous_caches": true,
+    "details": [
+      {
+        "perf_level": 0,
+        "name": "Performance",
+        "physical_cores": 4,
+        "l1d_size_bytes": 131072,
+        "l1i_size_bytes": 196608,
+        "l2_size_bytes": 12582912
+      },
+      {
+        "perf_level": 1,
+        "name": "Efficiency",
+        "physical_cores": 4,
+        "l1d_size_bytes": 65536,
+        "l1i_size_bytes": 131072,
+        "l2_size_bytes": 4194304
+      }
+    ]
+  },
+  "notes": [
+    "macOS does not expose CPU frequency on Apple Silicon."
+  ],
+  "os": {
+    "system": "Darwin",
+    "node": "MacBook-Air-zhansaya-medetkhanova.local",
+    "kernel_release": "23.0.0",
+    "kernel_version": "Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103",
+    "machine": "arm64",
+    "platform_string": "macOS-14.0-arm64-arm-64bit-Mach-O",
+    "macos_version": "14.0"
+  },
+  "python": {
+    "implementation": "CPython",
+    "version": "3.13.0",
+    "version_info": [
+      3,
+      13,
+      0,
+      "final"
+    ],
+    "compiler": "Clang 16.0.0 (clang-1600.0.26.4)",
+    "build": [
+      "main",
+      "Oct  7 2024 05:02:14"
+    ],
+    "executable": "/Users/sayam/Desktop/Parallel Computing/tasks/314_17.09.2026_230103275/24.09.26-2N/.venv/bin/python3",
+    "pointer_bits": 64,
+    "byte_order": "little",
+    "gil_enabled": true,
+    "sys_implementation": "cpython"
+  }
+}
