@@ -1,0 +1,287 @@
+{
+  "git_user": "zhansayamm",
+  "instance_seed_uint64": 2878418471491518143,
+  "instance_seed_hex": "0x27f232596c2cbebf",
+  "seed_derivation": "int(sha256('<git_user>::<machine>::<processor>::<logical_cores>').hexdigest()[:16], 16)",
+  "thread_seeds": [
+    15580304552513730126,
+    14024897161883525789,
+    13540987994555288542,
+    11949835897837910906
+  ],
+  "hardware": {
+    "cpu_model": "Apple M1",
+    "cpu_sig": "arm64::arm::8",
+    "logical_cores": 8,
+    "cache_line_size": 128,
+    "elements_per_line": 16,
+    "affinity_supported": false,
+    "affinity_cores": null
+  },
+  "config": {
+    "threads": 4,
+    "iterations_per_thread": 60000000,
+    "strides": [
+      1,
+      4,
+      8,
+      16
+    ],
+    "repeats": 3
+  },
+  "results": {
+    "strided": {
+      "1": {
+        "runs_ns": [
+          167457042,
+          167758250,
+          168826458
+        ],
+        "median_ns": 167758250.0,
+        "ns_per_update": 2.7959708333333335,
+        "ctx_switches_per_run": [
+          {
+            "voluntary": 0,
+            "involuntary": 599
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 270
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 283
+          }
+        ],
+        "threads_pinned": false,
+        "buffer_address_mod_line": 0
+      },
+      "4": {
+        "runs_ns": [
+          185287791,
+          179577000,
+          181308792
+        ],
+        "median_ns": 181308792.0,
+        "ns_per_update": 3.0218132,
+        "ctx_switches_per_run": [
+          {
+            "voluntary": 0,
+            "involuntary": 330
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 150
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 1126
+          }
+        ],
+        "threads_pinned": false,
+        "buffer_address_mod_line": 0
+      },
+      "8": {
+        "runs_ns": [
+          166488791,
+          163390292,
+          163697750
+        ],
+        "median_ns": 163697750.0,
+        "ns_per_update": 2.728295833333333,
+        "ctx_switches_per_run": [
+          {
+            "voluntary": 0,
+            "involuntary": 1178
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 574
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 117
+          }
+        ],
+        "threads_pinned": false,
+        "buffer_address_mod_line": 0
+      },
+      "16": {
+        "runs_ns": [
+          161373625,
+          158703000,
+          158947583
+        ],
+        "median_ns": 158947583.0,
+        "ns_per_update": 2.6491263833333334,
+        "ctx_switches_per_run": [
+          {
+            "voluntary": 0,
+            "involuntary": 278
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 52
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 102
+          }
+        ],
+        "threads_pinned": false,
+        "buffer_address_mod_line": 0
+      }
+    },
+    "private": {
+      "1": {
+        "runs_ns": [
+          128121292,
+          125555375,
+          125542375
+        ],
+        "median_ns": 125555375.0,
+        "ns_per_update": 2.0925895833333334,
+        "ctx_switches_per_run": [
+          {
+            "voluntary": 0,
+            "involuntary": 263
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 55
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 60
+          }
+        ],
+        "threads_pinned": false,
+        "buffer_address_mod_line": 0
+      },
+      "4": {
+        "runs_ns": [
+          130316666,
+          125512041,
+          125321583
+        ],
+        "median_ns": 125512041.0,
+        "ns_per_update": 2.09186735,
+        "ctx_switches_per_run": [
+          {
+            "voluntary": 0,
+            "involuntary": 239
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 55
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 39
+          }
+        ],
+        "threads_pinned": false,
+        "buffer_address_mod_line": 0
+      },
+      "8": {
+        "runs_ns": [
+          127266375,
+          125728750,
+          125793917
+        ],
+        "median_ns": 125793917.0,
+        "ns_per_update": 2.0965652833333333,
+        "ctx_switches_per_run": [
+          {
+            "voluntary": 0,
+            "involuntary": 217
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 89
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 94
+          }
+        ],
+        "threads_pinned": false,
+        "buffer_address_mod_line": 0
+      },
+      "16": {
+        "runs_ns": [
+          127441333,
+          129161334,
+          126158000
+        ],
+        "median_ns": 127441333.0,
+        "ns_per_update": 2.1240222166666665,
+        "ctx_switches_per_run": [
+          {
+            "voluntary": 0,
+            "involuntary": 219
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 220
+          },
+          {
+            "voluntary": 0,
+            "involuntary": 159
+          }
+        ],
+        "threads_pinned": false,
+        "buffer_address_mod_line": 0
+      }
+    }
+  },
+  "final_counter_values": [
+    503317890468067,
+    503287431869955,
+    503333683137373,
+    503344874005723
+  ],
+  "final_counter_values_sha256": "c033945ebb239c5cc4da94fcee7a95c976a1107df9976e37c595dad790d13e54",
+  "parity": {
+    "bit_exact": true,
+    "mismatches": []
+  },
+  "llvm_audit": {
+    "available": true,
+    "i64_stores": 18,
+    "i64_loads": 9,
+    "loop_rmw_blocks": 2,
+    "python_capi_calls": [],
+    "ir_body_sha256": "3b5193aba9cacc51c74cbfa0ade61403b16054ba4f0472b49cf7f3b6ea287aa1",
+    "checks": {
+      "has_native_i64_store": true,
+      "has_native_i64_load": true,
+      "rmw_load_and_store_inside_loop_body": true,
+      "no_python_capi_calls_in_native_body": true,
+      "no_pyobject_type_in_native_body": true
+    },
+    "passed": true
+  },
+  "analysis": {
+    "ns_per_update": {
+      "stride_1": 2.7959708333333335,
+      "stride_4": 3.0218132,
+      "stride_8": 2.728295833333333,
+      "stride_16": 2.6491263833333334
+    },
+    "ns_per_update_private": 2.0945774333333333,
+    "false_sharing_slowdown_stride1_over_stride8": 1.0248048613985226,
+    "coherence_penalty_ns_per_update_stride1_minus_stride8": 0.067675,
+    "memory_rmw_cost_ns_per_update_stride8_minus_private": 0.6337184,
+    "privatization_speedup_over_stride1": 1.334861528076236,
+    "first_stride_isolating_threads_on_separate_lines": 16
+  },
+  "environment": {
+    "python": "3.13.0",
+    "numba": "0.67.0",
+    "numpy": "2.5.3",
+    "platform": "macOS-14.0-arm64-arm-64bit-Mach-O"
+  },
+  "generated_utc": "2026-11-19T07:45:14Z",
+  "all_checks_passed": true
+}
